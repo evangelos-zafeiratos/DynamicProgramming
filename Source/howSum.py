@@ -29,7 +29,6 @@ if __name__ == '__main__':
     except:
         print('You entered an invalid input.')
         sys.exit(1)
-    cacheDict = {}
     t = timeit.timeit(lambda: print(howSum(targetSum, numbers)),number = 1)
 
     print("\nTime used to execute function is: ",t)
